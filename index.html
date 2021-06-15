@@ -105,18 +105,15 @@ body {
 <body>
 
 <div class="header">
-  <h1>Angel's Awesome Website </h1>
+  <h1 class="animate__animated animate__fadeInRightBig">parte central </h1>
 </div>
 <p id="demo"></p>
 
-<script>
-document.getElementById("demo").innerHTML =
-Math.floor(Math.random() * 11);
-</script>
+
 <div class="topnav">
   <a href="#">home</a>
-  <a href="about.html">about me</a>
-  <a href="#">letter to self</a>
+  <a href="about.html">about us</a>
+  <a href="#">deals </a>
    <a href="#"> contact</a>
 </div>
 	
@@ -124,42 +121,11 @@ Math.floor(Math.random() * 11);
 
 </body>
 </main>
-<img id="myImage" onclick="changeImage()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Rocket_League_logo.svg/1200px-Rocket_League_logo.svg.png" width="300" height="180">
-<p>Click the light bulb to turn on/off the light.</p>
-<script>
-var i = 1;
-function changeImage() {
-  var videoGameImage = document.getElementById('myImage');
-  
-  if (i==0) {
-    
-    videoGameImage.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Rocket_League_logo.svg/1200px-Rocket_League_logo.svg.png";
-    videoGameImage.width = "300";
-    i++;
-  } 
-  else if(i ==1) {
-    videoGameImage.src = "https://i.ytimg.com/vi/3iWS7ktNg9I/maxresdefault.jpg";
-	videoGameImage.width="300";
-    i++;
-  }
- else if(i ==2) {
-    videoGameImage.src = "https://images-na.ssl-images-amazon.com/images/I/510KWdgceEL.jpg";
-	videoGameImage.width="300";
-    i=0;
-	}
- 
-    
-}
 
-  function startTimer() {
- 	setInterval(changeImage(), 50);
-    }
-
-</script>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1tUPFQ54gqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
-<h1 class="animate__animated animate__fadeInRightBig">Angel's Awesome Website</h1>
+ class="animate__animated animate__fadeInRightBig"
 <h3> Home</h3> 
 <p>Born and raise in the south bronx.</p>
 <h3> About me &#128512</h3>
